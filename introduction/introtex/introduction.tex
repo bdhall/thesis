@@ -1,0 +1,40 @@
+\documentclass[a4paper]{article}
+\setlength\parindent{0pt}
+\usepackage[top=1.5in,bottom=1.5in,left=1.5in,right=1.5in]{geometry}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{mdwlist}
+\usepackage{changepage}
+\usepackage{tikz}
+\begin{document}
+
+
+\textsc{Introduction} \\
+
+\begin{adjustwidth}{.5in}{0pt}
+\textbf{Definition (Species).} A species is a group of living organisms consisting of similar individuals capable of exchanging genes or interbreeding. The species is the principal natural taxonomic unit, ranking below a genus and denoted by a Latin binomial, e.g., \emph{Homo sapiens}. \\
+\end{adjustwidth}
+
+1$^\circ$ Imagine that we are studying four species of closely related crabs and that we wish to plot the evolutionary relationships between them in a simple way. We decide that a phylogenetic tree is the best method for our purpose and we set out to design one. We begin by collecting a short DNA sequence from cells of  each species. Because our crabs have speciated, even though each sequence codes for the same protein, the sequences are slightly different. The following is an elementary description of how we would build a phylogenetic tree from these sequences. \\
+
+\begin{adjustwidth}{.5in}{0pt}
+\textbf{Definition (Speciation).} Speciation occurs when two lineages (in this essay, macroscopic organisms), originally of the same species, evolve enough to be so different that individuals can no longer exchange genetic information. \\
+\end{adjustwidth}
+
+
+2$^\circ$ The process for building our tree is fairly simple but requires multiple steps and multiple concepts from both Mathematics and Computer Science. The steps are as follows. We will:
+
+\begin{itemize*}
+\item align the sequences;
+\item determine `evolutionary distance' from these alignments;
+\item build a metric from these distances;
+\item verify that this metric corresponds to a phylogenetic tree;
+\item and, finally, build our tree. 
+\end{itemize*}
+
+Note that this discussion is from the point of view of a mathematician and not a bioinformatician. As such, many important details are omitted from this discussion and some biology-centric ideas may be skewed to fit the mathematics. \\
+
+
+
+\end{document}
